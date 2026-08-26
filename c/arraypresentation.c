@@ -6,7 +6,7 @@ void function1(int array[])
     {
         printf("The value of %d is: %d\n", i, array[i]);
     }
-    array[0] = 10;
+    array[0] = 10; \\ This will not work .
 }
 
 void function2(int *ptrarray)
